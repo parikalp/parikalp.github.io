@@ -1,4 +1,6 @@
-
+html {
+	height: 100%;
+}
 body {
 	background-image: url("../img/cs_bg.jpg");
 	background-size: cover;
@@ -6,6 +8,10 @@ body {
 	background-position: center;
 	background-overflow: hidden;
 	background-attachment: fixed;
+    height:100%;
+    padding:0;
+    margin:0;
+	position: relative;
 	z-index: -2;
 }
 
@@ -16,8 +22,7 @@ body {
 	background-position: 50% 78%, center;
 	background-overflow: hidden;
 	background-attachment: fixed;
-	height: 93vh;
-	z-index: -1;
+	height: 90%;
 }
 
 p {
@@ -25,6 +30,7 @@ p {
 }
 
 .social {
+	padding-top: 10px;
 	text-align: center;
 }
 
